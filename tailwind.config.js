@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'open-sans-<uniquifier>': ['"Open Sans"', 'sans-serif'],
+        'open-sans-1': ['"Open Sans"', 'sans-serif'],
       },
       fontWeight: {
         // Add custom font weights if needed
@@ -14,6 +14,10 @@ module.exports = {
         700: 700,
         800: 800,
       },
+      backdropBrightness: {
+        25: '.25',
+        175: '1.75',
+      }
     },
   },
   plugins: [
